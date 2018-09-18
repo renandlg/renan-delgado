@@ -1,0 +1,39 @@
+.copy{
+	color: #2f93cc;
+}
+h3.nav-title{
+	font-family: 'Comfortaa', cursive;
+	font-size: 14pt;
+	padding-top: 10px;
+}
+h5.contact-title{
+	font-family: 'Comfortaa', cursive;
+	font-size: 13pt;
+}
+p.contact-footer{
+	font-size: 10pt;
+	span.enfase{
+		font-size: 11pt;
+	}
+}
+.social-links{
+	padding-inline-start: 0px !important;
+}
+.link-iten{
+	list-style: none;
+	display: inline-block;
+}
+.social-down{
+	padding-top: 10px; 
+}
+i.fab{
+	font-size: 20pt;
+	color: white;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 10px;
+	transition: 0.2s;
+	&:hover{
+		color: #e41454;
+	}
+}

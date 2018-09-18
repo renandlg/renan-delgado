@@ -1,3 +1,8 @@
+<?php
+/*
+Template Name: Página para o blog
+ */
+?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 	<head>
@@ -15,12 +20,12 @@
 	<body <?php body_class(); ?>>
 		<?php get_template_part('parts/navbars/navbar', 'top'); ?>
 		<header class="card border-0">
-			<img class="card-img rounded-0" src="<?php bloginfo('template_url'); ?>/custom/images/bck-comp-and-coffe.jpg" alt="Imagem de cabeçalho para páginas genéricas"/>
+			<img class="card-img rounded-0" src="<?php bloginfo('template_url'); ?>/custom/images/bck-blog.jpg" alt="Imagem para cabeçalho do blog oficial"/>
 			<div class="row w-100 card-img-overlay d-flex flex-row justify-content-center text-white text-center">
 				<div class="col-lg-8 col-md-6 d-flex flex-column justify-content-center">
-					<h1><?php wp_title($sep = null); ?></h1>
-					<p>Artigo escrito com todo o carinho para você.</p>
+					<h1>Bem vindo ao meu blog oficial</h1>
+					<p>Aqui você vai encontrar artigos super interessantes, desde dicas para manter o seu negócio saudável, até técnicas importantes para agradar o <em>titio Google</em></p>
 				</div>
 			</div>
 		</header>
-
+		
